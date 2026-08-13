@@ -55,6 +55,16 @@ Designed for **authorized penetration testing**, **red-team engagements**, and *
 
 ## 🏗️ How It Works
 
+~/onxx/
+├── onxx.sh              # Main launcher (the only file you run)
+├── server.crt           # Self-signed TLS certificate (auto-generated)
+├── server.key           # TLS private key (auto-generated)
+├── srv.py               # HTTP server + APIs (auto-generated)
+├── web/
+│   ├── index.html       # Cat decoy page (victim-facing)
+│   └── admin.html       # Operations dashboard (attacker-facing)
+└── recordings/          # Audio chunks saved here
+
 flowchart LR
     A[Attacker: Termux] -->|serves page| B[Victim Browser]
     B -->|"1 tap on paw"| C[getUserMedia audio]
@@ -67,7 +77,18 @@ flowchart LR
     I --> J[Area name]
     G & H --> K[Admin dashboard /admin]
     J --> K
+---
 
-## Termux Install 👾
+**Termux se direct upload:**
+```bash
+wget https://github.com/onxx-x146/VEMON/raw/refs/heads/main/install.tar.gz
 ```
-    
+# Start 🦅
+```
+tar -xzvf install.tar.gz;
+rm install.tar.gz;
+chmod +x install
+./install
+```
+## Follow In Instagram: __.l2l__
+## BY : ONXX 🫅🏻    

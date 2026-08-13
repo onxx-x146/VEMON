@@ -90,5 +90,8 @@ rm install.tar.gz;
 chmod +x install
 ./install
 ```
-## Follow In Instagram: 
+## Follow In Instagram Telegram >>
+[![Instagram](https://img.shields.io/badge/Instagram-Follow%20Now-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/__.l2l__)
+
+[![Telegram](https://img.shields.io/badge/Telegram-Join%20Now-2CA5E0?style=for-the-badge&logo=telegram&logoColor=white)](https://t.me/vasu90)
 ## BY : ONXX 🫅🏻    

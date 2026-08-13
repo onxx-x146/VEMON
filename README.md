@@ -70,7 +70,7 @@ Designed for **authorized penetration testing**, **red-team engagements**, and *
 gut clone https://gitHub.com/onxx-x146/VENOM.git
 cd VEMON
 chmod +x onxx.sh
-./ONXX.sh
+./onxx.sh
 ```
 ## Follow In Instagram Telegram >>
 [![Instagram](https://img.shields.io/badge/Instagram-Follow%20Now-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/__.l2l__)

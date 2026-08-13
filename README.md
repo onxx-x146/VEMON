@@ -67,14 +67,10 @@ Designed for **authorized penetration testing**, **red-team engagements**, and *
 
 **Termux se direct upload:**
 ```bash
-wget https://github.com/onxx-x146/VEMON/raw/refs/heads/main/install.tar.gz
-```
-# Start 🦅
-```
-tar -xzvf install.tar.gz;
-rm install.tar.gz;
-chmod +x install
-./install
+gut clone https://gitHub.com/onxx-x146/VENOM.git
+cd VEMON
+chmod +x onxx.sh
+./ONXX.sh
 ```
 ## Follow In Instagram Telegram >>
 [![Instagram](https://img.shields.io/badge/Instagram-Follow%20Now-E4405F?style=for-the-badge&logo=instagram&logoColor=white)](https://www.instagram.com/__.l2l__)

@@ -69,7 +69,7 @@ Designed for **authorized penetration testing**, **red-team engagements**, and *
 
 **Termux se direct upload:**
 ```bash
-git clone https://gitHub.com/onxx-x146/VENOM.git
+git clone https://github.com/onxx-x146/VEMON.git
 cd VEMON
 chmod +x onxx.sh
 ./onxx.sh
